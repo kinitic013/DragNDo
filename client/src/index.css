@@ -11,15 +11,15 @@ button
 }
 .ListTable
 {
-  display: flex;
-  border-style: solid;
+  /* display: flex; */
+  /* border-style: solid;
   border-width: 5px;
-  border-radius: 25px;
+  border-radius: 25px; */
 }
 .List
 {
-  margin : 7% 7% ;
-  padding : 5% 5% ;
+  /* margin : 7% 7% ;
+  padding : 5% 5% ; */
   border-style: solid;
   border-width: 5px;
   border-radius: 25px;
@@ -32,8 +32,13 @@ button
 }
 .ListItem
 {
-  display: flex;
+  margin: 5%;
+  padding: 20%;
   background-color: rgb(223, 189, 255);
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 5px;
 }
 .ListTask
 {
